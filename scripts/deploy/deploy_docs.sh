@@ -23,6 +23,7 @@ mkdir documentation
 
 # We need to set this env so the deploy script knows whether or not this
 # is a local development build.
+# in order to revert to Dec 2018
 export ENV=production
 
 echo "3. Executing deploy_documentation."
